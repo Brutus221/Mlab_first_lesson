@@ -1,61 +1,92 @@
+
 <!DOCTYPE html>
+
 <html>
-    <title>About Us</title>
-    <body>
-            <!--This is the header and it will encompass our logo and our navigation bar -->
-        <head>
+  <title>About Us</title>
+  <body>
+    <!-- This is the @head and it will encompass our logo and our navigation bar -->
+    <head>
+        <link rel="stylesheet" href="style.css">
+      <div>
+        <table style="width: 100%">
+          <tr>
+            <td>
+              <a href="index.html">
+                <img src="assets/logo/brutus 2.0 (1).png" width="100px" alt="" />
+              </a>
+            </td>
+            <td align="right">
+              <nav
+                style="
+                  margin-right: 50px;
+                  margin-top: 16px;
+                  margin-bottom: 16px;
+                  margin-left: 50px;
+                "
+              >
+                <a href="index.html">Home</a>
+                <a href="about_us.html" style="margin: 16px">About Us</a>
+                <a href="contact_us.html">Contact Us</a>
+              </nav>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </head>
+
+    <!-- This is our main and it will encompass all our content for the landing page for our site -->
+    <main  class="mainContainer">
+        
+        <div class="listItem">
+        <table class="skillsList" >
+        <tr>
+            <td rowspan="2"><img src="./assets/Icons/html.png" class="iconsImg"  alt=""></td>
+            <td width="30%"><h3 class="subject">HTML</h3></td>
+
+        </tr>
+        <tr>
             
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            <td><p class="prof">Level 5</p></td>
+        </tr>
+    </table>
+</div>
+        <div class="listItem">
+            <table class="skillsList"  >
+        <tr>
+            <td rowspan="2"><img src="./assets/Icons/css-3.png" class="iconsImg"  alt=""></td>
+            <td width="30%"><h3 class="subject">CSS</h3></td>
+
+        </tr>
+        <tr>
             
-        <div>
-            <table style="width: 100%;">
-                <tr>
-                    <td>
-                        <a href="index.html">   <img src="Assets/logo/brutus 2.0 (1).png" width="110px" alt="">
-                        </a>
-                     </td>
-                    <td align="right">
-                        <nav style="margin-right: 50px;margin-bottom: 16px;margin-left: 50px;">
-                            <a href="index.html">Home</a>
-                            <a href="about_us.html" style="margin:16px;">About us</a>
-                            <a href="contact_us.html">Contact us</a>
-                        </nav>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        </head>
-        <main style ="height: 100vh;background-color: blue;">
-            <section class="about-us">
-                <div class="row">
-                    <div class="about-col">
-                <h1>I am a software developer who is consistant and passionate about technology in the 4IR sphere</h1>
-                <p>I have an 8 months full stack experience from the University of Johannesburg and Accenture and 4 months Takealot.com experience with orace database</p>   
-                <a href="" class="hero-btn red-btn" style="    border: 1px solid #f44336;
-                background: #f44336;
-                transition: 1s;">Find out more</a>
-                </div>
-                    <div class="about-col">
-                      <img src="Assets/imgs/mudau.jfif"  width="500vh" alt="">
-                    </div>
-                </div>
-                    </section>
-                    
-        </main>
-        <!--This is our footer and it will encompass all the quick links on our website-->
-        <footer>
-            <h1>My social Media links</h1>
-            <div class="icons">
-                <i class="fa fa-facebook-official"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-linkedin"></i>
-                <i class="fa fa-twitter"></i>
-            </div>
-        </footer>
-    </body>
+            <td><p class="prof">Level 5</p></td>
+        </tr>
+        </table>
+    </div>
+    <div class="listItem">
+        <table class="skillsList" >
+        <tr>
+            <td rowspan="2"><img src="./assets/Icons/js.png" class="iconsImg"  alt=""></td>
+            <td width="30%"><h3 class="subject">Javascript</h3></td>
+
+        </tr>
+        <tr>
+            
+            <td><p class="prof">Level 5</p></td>
+        </tr>
+    </table>
+    </div>
+    <!--<ul id="shoppingListID">
+        <li>Milk</li>
+        <li>Milk</li>
+        <li>Milk</li>
+        <li>Milk</li>
+      </ul>-->
+    </main>
+
+    <!-- This is our footer and it will encompass all the quick links on our website.-->
+    <footer>
+      <h1>This is our footer</h1>
+    </footer>
+  </body>
 </html>
